@@ -1,0 +1,76 @@
+<html>    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <head>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>freeCodeCamp Survey</title>
+    </head>
+
+    <body>
+    <main id="main">
+        <header>
+        <h1 id="title">freeCodeCamp Survey</h1>
+        <p id="description">A brief survey to help out the people behind freeCodeCamp</p>
+        </header>
+        <form id="survey-form">
+            <div class="form-box">
+            <p><i>Required fields are marked with *</i></p>
+            <label id="name-label" for="name">* Name:</label><br>
+            <input type="text" required id="name" name="name" placeholder="Johnny Appleseed">
+            <br>
+            <label id="email-label" for="email">* email:</label><br>
+            <input type="email" required id="email" name="email" placeholder="johnny@apple.com">
+            <br>
+            <label id="number-label" for="number">Years of experience:</label><br>
+            <input type="number" id="number" name="number" min="0" max="99" placeholder="3">
+            <br>
+            <label id="dropdown-label" for="dropdown">Favorite Language</label><br>
+            <select id="dropdown" name="dropdown" placeholder="Select favorite language">
+                <optgroup label="Programming Languages">
+                <option value="javascript">Javascript</option>
+                <option value="python">Python</option>
+                <option value="c">C / C++ / C#</option>
+                <option value="swift">Swift</option>
+                <option value="go">Go</option>
+                </optgroup>
+                <optgroup label="Other">
+                <option value="love">Love</option>
+                <option value="bacon">Bacon</option>
+                <option value="binary">00111001010010</option>
+                </optgroup>
+            </select>
+            <div id="radio">
+                <p>Do you like freeCodeCamp's content?</p>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="radio" value="yes" checked><br>
+                <label for="definitely">Definitely</label>
+                <input type="radio" id="definitely" name="radio" value="definitely"><br>
+                <label for="hellyeah">Hell Yeah!</label>
+                <input type="radio" id="hellyeah" name="radio" value="hellyeah"><br>
+                <label for="confused">Who are you and how did I get here?</label>
+                <input type="radio" id="confused" name="radio" value="confused">
+            </div>
+            <div>
+                <p>Favorite Operating System:</p>
+                <label for="windows">Windows</label>
+                <input type="checkbox" id="windows" name="windows" value="windows"><br>
+                <label for="mac">MacOS</label>
+                <input type="checkbox" id="mac" name="mac" value="mac"><br>
+                <label for="linux">Linux</label>
+                <input type="checkbox" id="linux" name="linux" value="linux"><br>
+            </div>
+            <br><br>
+            <div>
+                <label for="comments">Any Final Comments?</label>
+                <textarea id="comments" name="comments" rows="4", cols="50">
+                </textarea>
+            </div>
+            <br>
+            <input type="submit" id="submit" name="submit">
+            </div>
+        </form>
+    </main>
+    </body>
+</html>

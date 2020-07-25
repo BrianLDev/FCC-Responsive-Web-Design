@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: black;
+  }
+  
+  .form-box {
+    width: 50%;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    background: gray;
+  }
+  
+  input {
+    text-align: center;
+  }
+  
+  input::placeholder {
+    color: LightGray;
+  }
