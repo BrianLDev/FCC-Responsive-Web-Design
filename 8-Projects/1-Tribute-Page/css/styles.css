@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  h1 {
+    font-family: "MedievalSharp", cursive, sans-serif;
+    font-size: 4em;
+    line-height: 25%;
+  }
+  
+  h2 {
+    font-family: "MedievalSharp", cursive, sans-serif;
+    font-size: 2.5em;
+    color: gray;
+  }
+  
+  h3 {
+    font-family: "MedievalSharp", cursive, sans-serif;
+    font-size: 2em;
+    line-height: 50%;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 1.25em;
+    text-align: left;
+    text-indent: 25px;
+    margin: 20px;
+  }
+  
+  p.center {
+    text-align: center;
+  }
+  
+  ul {
+    font-size: 1.5em;
+    text-align: left;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(425px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(200px, auto));
+    grid-gap: 1rem;
+    border-radius: 1rem;
+    background: LightGray;
+    justify-self: center;
+  }
+  
+  img {
+    max-width: 500px;
+    max-height: 400px;
+    min-width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+  }
+  
+  .center {
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+  }
+  
+  blockquote {
+    font-family: "MedievalSharp", cursive, sans-serif;
+    font-size: 1.5em;
+    border-radius: 0.5rem;
+    padding: 20px;
+    background: LightBlue;
+  }
