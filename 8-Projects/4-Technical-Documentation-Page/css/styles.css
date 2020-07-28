@@ -1,0 +1,57 @@
+h1 {
+  font-size: 1.5em;
+}
+
+header {
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+#navbar {
+  position: fixed;
+  height: 100%;
+  width: 160px;
+  top: 0;
+  left: 0;
+  padding: 25px 0 0 15px;
+  background-color: CornflowerBlue;
+}
+
+.nav-link {
+  font-size: 1.25em;
+  color: AliceBlue;
+  text-decoration: none;
+  clear: both;
+  padding: 10px;
+}
+
+#main-doc {
+  margin-left: 160px;
+  padding: 25px 10px 10px 10px;
+  background-color: AliceBlue;
+}
+  
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+  
+  #navbar {
+    position: static;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    font-size: 1.25em;
+    float: left;
+  }
+  
+  #main-doc {
+    margin: 0;
+    padding: 10px;
+  }
+}
