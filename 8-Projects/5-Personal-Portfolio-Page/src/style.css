@@ -1,0 +1,76 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  height: 75px;
+  background-color: CornflowerBlue;
+  justify-items: right;
+  align-content: center;
+  padding: 5px;
+}
+
+nav a {
+  font-size: 2rem;
+  color: AliceBlue;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+.jumbotron {
+  height: 95vh;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Comfortaa', cursive;
+  background-image: linear-gradient(CornflowerBlue, white);
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#projects {
+  margin: 1rem;
+}
+
+.project-tile {
+  padding: 1rem;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5rem;
+}
+
+.huge {
+  font-size: 5rem;
+}
+
+.huger {
+  font-size: 8rem;
+}
+
+@media (max-width: 75em) {
+  p {
+    color: black;
+  }
+}
